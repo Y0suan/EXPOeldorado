@@ -7,19 +7,21 @@ import 'react-awesome-slider/dist/styles.css';
 const Fotos = () => {
   return (
     <div className='w-[100%] h-auto relative  overflow-hidden p-8 sm:p-20 sm:py-40 flex flex-col gap-4 ' >
-      <AwesomeSlider animation="fallAnimation" className='h-[90vh] shadow-2xl w-1/2  rounded-xl overflow-hidden      w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] ' >
+      <AwesomeSlider animation="fallAnimation" className='sm:h-[90vh] shadow-2xl w-1/2  rounded-xl overflow-hidden  w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] ' >
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411076/IMG_1280_znxlgl.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411074/IMG_1276_rcuno3.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411074/IMG_1311_uapmqh.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411073/IMG_1307_vle3kg.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411072/IMG_1261_ndwzyu.jpg" />
-        <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411075/IMG_1278_lyfoi0.jpg" />
+        <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717503487/WhatsApp_Image_2024-06-04_at_8.54.51_AM_qeolgq.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411075/IMG_1278_lyfoi0.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411071/IMG_1423_l4dgl8.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411071/IMG_1260_mjobpp.jpg" />
-        <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411075/IMG_1278_lyfoi0.jpg" />
+        <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717596702/IMG_0007_eduefc.jpg" />
         <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411075/IMG_1262_nbv43r.jpg" />
-        <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717411075/IMG_1278_lyfoi0.jpg" />
+        <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717596701/IMG_0204_dw7sds.jpg" />
+        <div data-src="https://res.cloudinary.com/dzqdjsrez/image/upload/v1717596700/IMG_1374_1_c5pvk3.jpg" />
+
       </AwesomeSlider>
     </div>
   );
