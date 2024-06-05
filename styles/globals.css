@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.fondoExpo{
+    background-image: url("https://res.cloudinary.com/dzqdjsrez/image/upload/v1717068302/fondo_solo_safqwf.png");
+    background-size: cover;
+}
+.fondoFondoTotal{
+background-image: url("https://res.cloudinary.com/dzqdjsrez/image/upload/v1717068670/fondo_sfytnp.png");
+}
