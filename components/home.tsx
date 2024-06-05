@@ -1,5 +1,3 @@
-import { Button } from '@nextui-org/button'
-import { Butterfly_Kids } from 'next/font/google'
 import Link from 'next/link'
 import React from 'react'
 
