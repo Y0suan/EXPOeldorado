@@ -1,8 +1,6 @@
 const links = [
     { name: 'Expo.eldorado', href: 'https://www.instagram.com/expo.eldorado/' },
-    { name: '3751-249738', href: '#' },
     { name: 'expoeldorado@gmail.com', href: 'expoeldorado@gmail.com' },
-    // { name: 'Meet our leadership', href: '#' },
   ]
   const stats = [
     { name: 'Offices worldwide', value: '12' },

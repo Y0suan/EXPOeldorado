@@ -19,7 +19,7 @@ const features = [
     name: 'RUBROS SIN COSTO',
     description:
       'Ganaderia - Instituciones - Prensa - Maquinarias ',
-    link:" "
+    link:"#"
   },
 ]
 
