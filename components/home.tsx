@@ -14,13 +14,19 @@ export const HomeExpo = () => {
                 <img className='sm:h-28  h-20' src='https://res.cloudinary.com/dzqdjsrez/image/upload/v1717070415/avancemos_kpykjk.png' alt='' ></img>
             </div>
         </div>
-        <div className=' overflow-hidden p-10 sm:px-32  w-[100%] sm:h-3/6 h-auto fondoExpo flex justify-between sm:flex-row flex-col sm:gap-0 gap-8' >
+        <div className=' overflow-hidden p-16 sm:px-32  w-[100%] sm:h-3/6 h-auto fondoExpo flex justify-between sm:flex-row flex-col sm:gap-0 gap-8' >
+            <div className='flex flex-col gap-5' >
             <div className='text-white m-[-8px] ' >
             <h2 className='font-bold sm:text-4xl ' >!La Expo te espera!</h2>
             <h3 className='font-light text-xl ' >del 14 al 17 de Noviembre</h3>
             </div>
+            <div className='text-white m-[-8px] ' >
+            <h2 className='font-bold sm:text-2xl ' >Pre-Inscripciones desde</h2>
+            <h3 className='font-light text-xl ' >01 de julio al 13 de septiembre</h3>
+            </div>
+            </div>
             <Link className=' m-[-8px] sm:mr-60 bg-[#C86351] rounded-full text-white font-semibold w-fit h-fit px-4 py-2' href="/preInscripcion"  >PRE-INSCRIBETE ACÁ</Link>
-            <img className=' invisible sm:visible  absolute w-[60vw] sm:bottom-[-40px] sm:left-[250px]  ' src='https://res.cloudinary.com/dzqdjsrez/image/upload/v1717068302/trama_trqzqh.png' alt=''></img>
+            <img className=' invisible sm:visible  absolute w-[60vw] sm:bottom-[-40px] sm:left-[350px]  ' src='https://res.cloudinary.com/dzqdjsrez/image/upload/v1717068302/trama_trqzqh.png' alt=''></img>
         </div>
     </div>
   )
