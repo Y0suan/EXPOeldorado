@@ -67,24 +67,41 @@ const preInscripcion = () => {
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           ¡Bienvenidos a Expo Eldorado!
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-          RUBROS Y SUBRUBROS
+          <p className="mt-6 text-lg leading-8 text-gray-900">
+          <Link className='hover:text-gray-500 my-10 font-semibold' href={"https://drive.google.com/file/d/1BFYnX0VJm29MVrvLdarr5NPNkVs6AOHJ/view"} >REGLAMENTO EXPO ELDORADO, CHECK DISPONIBLE PARA DESCARGA</Link>
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative pl-16 flex flex-col ">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  {/* <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
-                  </div> */}
-                  {feature.name}
-                </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
-                <Link href={feature.link} className=' bg-[#C86351] text-white p-2 px-10 rounded-full px-4 mt-4'  >Hace Click</Link>
-              </div>
-            ))}
-          </dl>
+        <div className="mt-10 w-full h-auto flex sm:justify-center flex-wrap gap-8">
+          <div className='w-fit h-auto text-gray-900 font-semibold flex flex-col' >
+            <h2 className='text-xl font-bold text-blue-600 ' >RUBROS SIN COSTO</h2>
+            <Link className='hover:text-center ease-in duration-900 delay-200'  href={"https://docs.google.com/forms/d/e/1FAIpQLSf7S-R_jqPTR76usdG0dZyhakTRmIlkYk5Ay_Cl9V4LZu9iDQ/closedform"} >Prensa</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSe6doynK_8PhzULSdZKhgiseeaYtJKmQFuyHzaG_VUiUQyb4w/closedform"} > Instituciones</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSctxfL53QPPSZWbquUGM5KhSh0v60Dk3H6AcDPa_00xcGMoAA/closedform"} > Ganadería</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSc76N3M6JC5jQjQ89cewSk3BIVdtTb3d-_qNLLyZmgDhq91mw/closedform"} > Maquinarias</Link>
+          </div>
+          <div className='w-fit h-auto text-gray-900 font-semibold flex flex-col' >
+            <h2 className='text-xl font-bold text-blue-600 ' >RUBRO DE PRODUCTOS Y SERVICIOS</h2>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSctxfL53QPPSZWbquUGM5KhSh0v60Dk3H6AcDPa_00xcGMoAA/closedform"} >Vivero y Afines</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSe26Jfg2fip6JUdQDE6ZcSBkagKRIjq_jsT4yGwpOll0R576w/closedform"} >Vehículos</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSe26Jfg2fip6JUdQDE6ZcSBkagKRIjq_jsT4yGwpOll0R576w/closedform"} >Pauta Publicitaria</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSfZZ-tihAsIMtfiW7053piLnZVAF3IC3H-KAkaOiRLBmtZKHA/closedform"} >Parque de Diversiones</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSe3D1RLQdrA2BvtZCK1RE_qvbXRhqITeurWDCYhXaiOWj5xrQ/closedform"} >Manualidades</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSeijdYF5iY5r1JNdPEchdxVnjr8kkdC-iTiwoJeJ5ANC3-3zg/closedform"} >Juegos Mecánicos</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSczlMwADBtzgxM4_SvJUbNKP3s6VSCGClLrju4syxcZxlXRpA/closedform"} >Infantiles</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSfXp-06AVavHzC194P4cLeJwduuiCSDj6es-iGNPQ0iCntb5w/closedform"} >Grandes Expositores</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSdwH4neznm4cGc6ymcMsYVOjeh8dLbuBM6QWaQWSWdfRGvUxA/closedform"} >Comercio por Catalogo</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSeaSDnyDhb1mYs9W_tU55W-TZcbnwKnuNvbuPm0eLONt9w9sQ/closedform"} >Comercio</Link>
+            <Link  className='hover:text-center' href={"https://docs.google.com/forms/d/e/1FAIpQLScv33a6opDWv9q9nsOCWZs0fI8OGFydHIeB4yTsUoAQEOswLw/closedform"} >Carpintería</Link>
+            <Link className='hover:text-center' href={"https://docs.google.com/forms/d/e/1FAIpQLSf8qfzUxud9kahMAtlshVRg0hfxxbXIf6icUUXcVzfTGDYbzw/closedform"} >Artesanos</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSdVx2syjd-Xtej749o4yanYZjnlcw4dy2u0GBzKZHGN4jjfxw/closedform"} >Vendedores Ambulantes</Link>
+          </div>
+          <div className='w-fit h-auto text-gray-900 font-semibold flex flex-col' >
+            <h2 className='text-xl text-blue-600  font-bold' >RUBRO DE ALIMENTOS Y BEBIDAS</h2>
+            <Link className='hover:text-center' href={"https://docs.google.com/forms/d/e/1FAIpQLScmh7Q-B6FNzlOAck1Duh3PyrEzDw4eCSUbzp_R777MqQxCyQ/closedform"} >Sub-evento</Link>
+            <Link className='hover:text-center' href={"https://docs.google.com/forms/d/e/1FAIpQLSeQVu9ayVqhcyhX4vA96AjXpAqfueSd_FiePYHjxXwkCXXbwg/closedform"} >Envasados Caseros</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSeRgLdDwnTMlrvKDau_5bh7Q00NTUai8Pp2DhnneGNjlklmvg/closedform"} > Cerveza Artesanal</Link>
+            <Link  className='hover:text-center' href={"https://docs.google.com/forms/d/e/1FAIpQLSfdzF6eiheMYLRwowrXKUIrVWL_n6AlzZ8Rz6lK1eQ6Ub4AAA/closedform"} >Patio de comidas y bebidas,<br/> Food Truck Anfiteatro,<br/> Paseo de Comidas y Bebidas,<br/> Bares</Link>
+          </div>
         </div>
       </div>
     </div>
