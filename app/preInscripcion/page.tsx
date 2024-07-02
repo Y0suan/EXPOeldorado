@@ -81,9 +81,9 @@ const preInscripcion = () => {
           </div>
           <div className='w-fit h-auto text-gray-900 font-semibold flex flex-col' >
             <h2 className='text-xl font-bold text-blue-600 ' >RUBRO DE PRODUCTOS Y SERVICIOS</h2>
-            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSctxfL53QPPSZWbquUGM5KhSh0v60Dk3H6AcDPa_00xcGMoAA/closedform"} >Vivero y Afines</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSd55xbT3heeh5Sqg_C2GyKTuU0dmQ-Smz6kwvQ9K3fc_Q3QhA/viewform"} >Vivero y Afines</Link>
             <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSe26Jfg2fip6JUdQDE6ZcSBkagKRIjq_jsT4yGwpOll0R576w/closedform"} >Vehículos</Link>
-            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSe26Jfg2fip6JUdQDE6ZcSBkagKRIjq_jsT4yGwpOll0R576w/closedform"} >Pauta Publicitaria</Link>
+            <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSd55xbT3heeh5Sqg_C2GyKTuU0dmQ-Smz6kwvQ9K3fc_Q3QhA/viewform"} >Pauta Publicitaria</Link>
             <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSfZZ-tihAsIMtfiW7053piLnZVAF3IC3H-KAkaOiRLBmtZKHA/closedform"} >Parque de Diversiones</Link>
             <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSe3D1RLQdrA2BvtZCK1RE_qvbXRhqITeurWDCYhXaiOWj5xrQ/closedform"} >Manualidades</Link>
             <Link className='hover:text-center'  href={"https://docs.google.com/forms/d/e/1FAIpQLSeijdYF5iY5r1JNdPEchdxVnjr8kkdC-iTiwoJeJ5ANC3-3zg/closedform"} >Juegos Mecánicos</Link>
